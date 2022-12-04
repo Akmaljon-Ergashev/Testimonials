@@ -1,0 +1,383 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+}
+.grid-container {
+    display: grid;
+    width: 1400px;
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-item {
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+.wrapper {
+    display: flex;
+    margin-bottom: 45px;
+}
+.wrapper1 {
+    display: flex;
+    padding-left: 100px;
+}
+.wrapper2 {
+    display: flex;
+}
+.wrapper3 {
+    display: flex;
+    padding-left: 100px;
+    margin-top: 5px;
+}
+h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #363940;
+
+}
+.item-p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #95A1BB;
+    margin-bottom: 15px;
+}
+.item1-p {
+    width: 366px;
+    height: 88px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #363940;
+}
+img {
+    width: 64px;
+    height: 64px;
+    margin-right: 30px;
+}
+h1 {
+    margin-bottom: 50px;
+    color: #363940;
+    ;
+}
+.grid-container1 {
+    width: 1400px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.wrapper4 {
+    margin-left: 100px;
+}
+.Test02 {
+    width: 400px;
+    height: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.wrapper5 {
+    margin-right: 100px;
+}
+.people {
+    margin-top: 200px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 25px;
+}
+.morillo {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363940;
+    margin: 0px 0px 0px;
+    margin-bottom: 11px;
+}
+.founder {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #95A1BB;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.star1 {
+    width: 18px;
+    height: 17px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.star2 {
+    width: 18px;
+    height: 17px;
+    margin: 0px;
+}
+.star3 {
+    width: 18px;
+    height: 17px;
+    margin: 0px;
+}
+.star4 {
+    width: 18px;
+    height: 17px;
+    margin: 0px;
+}
+.star5 {
+    width: 18px;
+    height: 17px;
+    margin: 0px;
+    margin: 0px;
+}
+.wrapper-star {
+    display: flex;
+    list-style: none;
+}
+.goal {
+    width: 410px;
+    height: 132px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.grid-div {
+    width: 1400px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+.test {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.people1 {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 30px;
+}
+.grid-big {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: center;
+}
+.grid-list1 {
+    margin-left: 99px;
+}
+.grid-list2 {
+    margin-left: 50px;
+}
+.middle {
+    width: 300px;
+    height: 160px;
+    margin-bottom: 22px;
+}
+.p-item {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #363940;
+    width: 300px;
+    height: 88px;
+}
+.p-list {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #95A1BB;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.testimon {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.p-well {
+    width: 460px;
+    height: 66px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.respect-grid {
+    width: 1400px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.well1 {
+    margin-left: 250px;
+}
+.well2 {
+    margin-left: 450px;
+}
+.flawed {
+    display: flex;
+    margin-top: 53px;
+}
+.melissa {
+    width: 140px;
+    height: 22px;
+    margin-bottom: 5px;
+}
+.item-p1 {
+    width: 97px;
+    height: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #95A1BB;
+}
+.control-item {
+    display: flex;
+}
+.control-1 {
+    width: 300px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    color: #363940;
+}
+.control-h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #363940;
+    margin-bottom: 5px;
+}
+.control-p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #95A1BB;
+    margin-bottom: 40px;
+}
+.grid-control {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
+}
+footer {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-footer {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.google {
+    width: 127px;
+    height: 42px;
+    margin-right: 50px;
+}
+.microsoft {
+    width: 162px;
+    height: 34px;
+    margin-right: 50px;
+}
+.pinters {
+    width: 148px;
+    height: 37px;
+    margin-right: 50px;
+}
+.wikipediya {
+    width: 169px;
+    height: 24px;
+    margin-right: 50px;
+}
+.amazon {
+    width: 115px;
+    height: 34px;
+}
+.same {
+    width: 660px;
+    height: 66px;
+    color: #95A1BB;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.many {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 77px;
+}
+.started {
+    width: 157px;
+    height: 46px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #6E38F7;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.get {
+    width: 150px;
+    height: 20px;
+    border: 1px solid #6E38F7;
+    border-radius: 4px;
+    background-color: #6E38F7;
+    display: flex;
+    border: none;
+    margin-left: 612px;
+    margin-top: 40px;
+}
